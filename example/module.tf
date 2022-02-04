@@ -1,7 +1,3 @@
-### This module creates a key pair
-
-#### Please copy and paste below code
-```
 module "dev" {
     source = "../"
     region = "us-east-1"
@@ -15,5 +11,3 @@ output region {
 output key_name {
     value = module.dev.key_name
 }
-
-```
